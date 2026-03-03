@@ -20,7 +20,6 @@ import processing.sound.*; // import the processing sound library
  * @version 0.1
  */
 public class Game extends PApplet {
-
   private SoundFile soundStartup; // will refer to a sound file to play when the program first starts
   private PImage imgMe; // will hold a photo of the background
   private ArrayList<Ball> balls; // will hold an ArrayList of ball objects
